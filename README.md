@@ -45,7 +45,7 @@ The goal of this project is to develop a machine learning model that can accurat
     ```
 
 5. **Download the pre-trained model**:
-   - Download the pre-trained model from [this link](https://example.com/path/to/your/model). Place the downloaded file in the `model` directory of your project.
+   - Download the pre-trained model from [this link](https://drive.google.com/file/d/1RUFXq9bHZE08vAskFetEEPDQSUb1nHMu/view?usp=drive_link). Place the downloaded file in the `model` directory of your project.
 
 6. **Set up the Django project**:
     ```bash
