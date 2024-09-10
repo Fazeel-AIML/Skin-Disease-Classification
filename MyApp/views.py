@@ -10,7 +10,7 @@ import base64
 from tensorflow.keras.preprocessing import image as keras_image
 
 # Load the model
-model = tf.keras.models.load_model('skin_cancer_classifier.h5')  # Replace with the path to your saved model
+model = tf.keras.models.load_model(r'skin_cancer_classifier\skin_cancer_classifier.h5')  # Replace with the path to your saved model
 
 def home(request):
     classification = request.session.get('classification', 'None')
