@@ -25,12 +25,12 @@ The goal of this project is to develop a machine learning model that can accurat
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/skin-disease-classification.git
+    git clone https://github.com/Fazeel-AIML/Skin-Disease-Classification.git
     ```
 
 2. **Navigate to the project directory**:
     ```bash
-    cd skin-disease-classification
+    cd Skin-Disease-Classification
     ```
 
 3. **Create and activate a virtual environment** (optional but recommended):
@@ -44,7 +44,10 @@ The goal of this project is to develop a machine learning model that can accurat
     pip install tensorflow keras numpy opencv-python Django Pillow
     ```
 
-5. **Set up the Django project**:
+5. **Download the pre-trained model**:
+   - Download the pre-trained model from [this link](https://example.com/path/to/your/model). Place the downloaded file in the `model` directory of your project.
+
+6. **Set up the Django project**:
     ```bash
     cd my_django_project  # Replace with your Django project directory
     python manage.py runserver
@@ -53,7 +56,7 @@ The goal of this project is to develop a machine learning model that can accurat
 ## Usage
 
 1. **Train the Model**:
-   - Ensure you have your dataset organized into `melanoma` and `seborrheic` folders.
+   - If you want to train the model from scratch, ensure you have your dataset organized into `melanoma` and `seborrheic` folders.
    - Run the training script to train the CNN model:
      ```bash
      python train_model.py
