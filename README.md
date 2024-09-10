@@ -89,4 +89,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Demo
 
-![Demo](path/to/your/gif.gif)  # Add your GIF file path here
+![Model Working GIF](Demo.gif)  # Add your GIF file path here
